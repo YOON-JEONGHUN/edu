@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#data { /* # => 아이디 부여 */
+	font-style: italic;
+}
+
+input {
+	font-size: 40px;
+	height: 100px;
+}
+
+.bottom {
+	background: maroon;
+	text-align: center;
+	height: 100px;
+}
+
+body {
+	color: blue;
+	font-size: 40px;
+}
+
+.left { /* 선택 : 클래스 - 그룹을 지어서 여러개를 동일한 효과를 주과 하는경우 */
+	background: yellow;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+}
+
+.right { /* 선택 : 클래스 - 그룹을 지어서 여러개를 동일한 효과를 주과 하는경우 */
+	background: fuchsia;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+}
+
+.button {
+	background: red;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+/* 선택자 => 선택을 하고 싶을때는 태그, 클래스지정, id부여 로 지정할 수 있다 */
